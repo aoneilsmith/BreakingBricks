@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00D6A3018FC97520065DA22 /* ss_frustrating.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A00D6A2F18FC97520065DA22 /* ss_frustrating.mp3 */; };
+		A02CD40C18E7909900CA87C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CD40B18E7909900CA87C0 /* Foundation.framework */; };
+		A02CD40E18E7909900CA87C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CD40D18E7909900CA87C0 /* CoreGraphics.framework */; };
+		A02CD41018E7909900CA87C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CD40F18E7909900CA87C0 /* UIKit.framework */; };
+		A02CD41218E7909900CA87C0 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CD41118E7909900CA87C0 /* SpriteKit.framework */; };
+		A02CD41818E7909900CA87C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A02CD41618E7909900CA87C0 /* InfoPlist.strings */; };
+		A02CD41A18E7909900CA87C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A02CD41918E7909900CA87C0 /* main.m */; };
+		A02CD41E18E7909900CA87C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A02CD41D18E7909900CA87C0 /* AppDelegate.m */; };
+		A02CD42118E7909900CA87C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02CD41F18E7909900CA87C0 /* Main.storyboard */; };
+		A02CD42418E7909900CA87C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02CD42318E7909900CA87C0 /* ViewController.m */; };
+		A02CD42718E7909900CA87C0 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A02CD42618E7909900CA87C0 /* MyScene.m */; };
+		A02CD42B18E7909900CA87C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02CD42A18E7909900CA87C0 /* Images.xcassets */; };
+		A02CD43218E7909900CA87C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CD43118E7909900CA87C0 /* XCTest.framework */; };
+		A02CD43318E7909900CA87C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CD40B18E7909900CA87C0 /* Foundation.framework */; };
+		A02CD43418E7909900CA87C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02CD40F18E7909900CA87C0 /* UIKit.framework */; };
+		A02CD43C18E7909900CA87C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A02CD43A18E7909900CA87C0 /* InfoPlist.strings */; };
+		A02CD43E18E7909900CA87C0 /* BreakingBricksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02CD43D18E7909900CA87C0 /* BreakingBricksTests.m */; };
+		A0530B3518E92572004E9C1D /* blip.caf in Resources */ = {isa = PBXBuildFile; fileRef = A0530B3218E92572004E9C1D /* blip.caf */; };
+		A0530B3618E92572004E9C1D /* brickhit.caf in Resources */ = {isa = PBXBuildFile; fileRef = A0530B3318E92572004E9C1D /* brickhit.caf */; };
+		A0530B3718E92572004E9C1D /* gameover.caf in Resources */ = {isa = PBXBuildFile; fileRef = A0530B3418E92572004E9C1D /* gameover.caf */; };
+		A0530B3918E9C4B8004E9C1D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0530B3818E9C4B8004E9C1D /* AVFoundation.framework */; };
+		A0530B3C18EA1E2E004E9C1D /* EndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A0530B3B18EA1E2E004E9C1D /* EndScene.m */; };
+		A0BC24C119129E6600DA50C1 /* StartMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC24C019129E6600DA50C1 /* StartMenu.m */; };
+		A0BC24C41912A3E300DA50C1 /* HomestarGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC24C31912A3E300DA50C1 /* HomestarGameScene.m */; };
+		A0BC24C71912A3F200DA50C1 /* HomestarEndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC24C61912A3F200DA50C1 /* HomestarEndScene.m */; };
+		A0BC24CA1912A40400DA50C1 /* HomestarWinScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC24C91912A40400DA50C1 /* HomestarWinScene.m */; };
+		A0BC24CC1912A5F900DA50C1 /* sbstartup3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24CB1912A5F900DA50C1 /* sbstartup3.wav */; };
+		A0BC24CE1912AABC00DA50C1 /* hs_notlookgood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24CD1912AABC00DA50C1 /* hs_notlookgood.mp3 */; };
+		A0BC24D01912AB8B00DA50C1 /* hs_heystupidshort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24CF1912AB8B00DA50C1 /* hs_heystupidshort.mp3 */; };
+		A0BC24D21912ABC300DA50C1 /* hs_canubelieveit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24D11912ABC300DA50C1 /* hs_canubelieveit.mp3 */; };
+		A0BC24D51912AC9200DA50C1 /* StrongSadWinScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC24D41912AC9200DA50C1 /* StrongSadWinScene.m */; };
+		A0BC24D71912AD4300DA50C1 /* homestarhead-aqua converted.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24D61912AD4300DA50C1 /* homestarhead-aqua converted.png */; };
+		A0BC24D91912AEC800DA50C1 /* Homestar Runner Theme Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24D81912AEC800DA50C1 /* Homestar Runner Theme Song.mp3 */; };
+		A0BC24DB1912AFF700DA50C1 /* hs_ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24DA1912AFF700DA50C1 /* hs_ding.mp3 */; };
+		A0BC24DD1912B49100DA50C1 /* HomestarRunner-folder converted.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24DC1912B49100DA50C1 /* HomestarRunner-folder converted.png */; };
+		A0BC24DF1912B49700DA50C1 /* sshead_converted.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24DE1912B49700DA50C1 /* sshead_converted.png */; };
+		A0BC24E11912B67E00DA50C1 /* trash_sb.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24E01912B67E00DA50C1 /* trash_sb.wav */; };
+		A0BC24E31912B7C000DA50C1 /* trash_hs.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0BC24E21912B7C000DA50C1 /* trash_hs.wav */; };
+		A0BC24E61912BB4600DA50C1 /* SettingsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC24E51912BB4600DA50C1 /* SettingsMenu.m */; };
+		A0C6B5BB19005CB200762A7D /* SSEndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C6B5BA19005CB200762A7D /* SSEndScene.m */; };
+		A0C6B5BD1900683F00762A7D /* ss_sadflying.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0C6B5BC1900683F00762A7D /* ss_sadflying.mp3 */; };
+		A0C6B5BF1900694600762A7D /* BreakingBricks.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A0C6B5BE1900694600762A7D /* BreakingBricks.atlas */; };
+		A0CD718F18ECA70500C90D11 /* hom_jengaship.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0CD718E18ECA70500C90D11 /* hom_jengaship.mp3 */; };
+		A0CD719718ECA9FB00C90D11 /* sbmax.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0CD719618ECA9FB00C90D11 /* sbmax.wav */; };
+		A0CD719B18ECAC3600C90D11 /* sbmin.wav in Resources */ = {isa = PBXBuildFile; fileRef = A0CD719A18ECAC3600C90D11 /* sbmin.wav */; };
+		A0CD71A318ED170900C90D11 /* sb_dubdeuce_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0CD71A218ED170900C90D11 /* sb_dubdeuce_1.mp3 */; };
+		A0CD71A518EDBFD200C90D11 /* The System is Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0CD71A418EDBFD200C90D11 /* The System is Down.mp3 */; };
+		A0CD71A718EDE12D00C90D11 /* sb_pizza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0CD71A618EDE12D00C90D11 /* sb_pizza.mp3 */; };
+		A0F9A81B18FBA21C00F5A504 /* StrongBadWinScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9A81A18FBA21C00F5A504 /* StrongBadWinScene.m */; };
+		A0F9A81E18FBA27100F5A504 /* StrongSadGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F9A81D18FBA27100F5A504 /* StrongSadGameScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A02CD43518E7909900CA87C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02CD40018E7909800CA87C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02CD40718E7909900CA87C0;
+			remoteInfo = BreakingBricks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00D6A2F18FC97520065DA22 /* ss_frustrating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ss_frustrating.mp3; sourceTree = "<group>"; };
+		A02CD40818E7909900CA87C0 /* BreakingBricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingBricks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02CD40B18E7909900CA87C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A02CD40D18E7909900CA87C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A02CD40F18E7909900CA87C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A02CD41118E7909900CA87C0 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		A02CD41518E7909900CA87C0 /* BreakingBricks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BreakingBricks-Info.plist"; sourceTree = "<group>"; };
+		A02CD41718E7909900CA87C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A02CD41918E7909900CA87C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A02CD41B18E7909900CA87C0 /* BreakingBricks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BreakingBricks-Prefix.pch"; sourceTree = "<group>"; };
+		A02CD41C18E7909900CA87C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A02CD41D18E7909900CA87C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A02CD42018E7909900CA87C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A02CD42218E7909900CA87C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A02CD42318E7909900CA87C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A02CD42518E7909900CA87C0 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		A02CD42618E7909900CA87C0 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		A02CD42A18E7909900CA87C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A02CD43018E7909900CA87C0 /* BreakingBricksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingBricksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02CD43118E7909900CA87C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A02CD43918E7909900CA87C0 /* BreakingBricksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BreakingBricksTests-Info.plist"; sourceTree = "<group>"; };
+		A02CD43B18E7909900CA87C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A02CD43D18E7909900CA87C0 /* BreakingBricksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakingBricksTests.m; sourceTree = "<group>"; };
+		A0530B3218E92572004E9C1D /* blip.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blip.caf; sourceTree = "<group>"; };
+		A0530B3318E92572004E9C1D /* brickhit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = brickhit.caf; sourceTree = "<group>"; };
+		A0530B3418E92572004E9C1D /* gameover.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameover.caf; sourceTree = "<group>"; };
+		A0530B3818E9C4B8004E9C1D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A0530B3A18EA1E2D004E9C1D /* EndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndScene.h; sourceTree = "<group>"; };
+		A0530B3B18EA1E2E004E9C1D /* EndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndScene.m; sourceTree = "<group>"; };
+		A0BC24BF19129E6600DA50C1 /* StartMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartMenu.h; sourceTree = "<group>"; };
+		A0BC24C019129E6600DA50C1 /* StartMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartMenu.m; sourceTree = "<group>"; };
+		A0BC24C21912A3E300DA50C1 /* HomestarGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomestarGameScene.h; sourceTree = "<group>"; };
+		A0BC24C31912A3E300DA50C1 /* HomestarGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomestarGameScene.m; sourceTree = "<group>"; };
+		A0BC24C51912A3F200DA50C1 /* HomestarEndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomestarEndScene.h; sourceTree = "<group>"; };
+		A0BC24C61912A3F200DA50C1 /* HomestarEndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomestarEndScene.m; sourceTree = "<group>"; };
+		A0BC24C81912A40400DA50C1 /* HomestarWinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomestarWinScene.h; sourceTree = "<group>"; };
+		A0BC24C91912A40400DA50C1 /* HomestarWinScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomestarWinScene.m; sourceTree = "<group>"; };
+		A0BC24CB1912A5F900DA50C1 /* sbstartup3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sbstartup3.wav; sourceTree = "<group>"; };
+		A0BC24CD1912AABC00DA50C1 /* hs_notlookgood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hs_notlookgood.mp3; sourceTree = "<group>"; };
+		A0BC24CF1912AB8B00DA50C1 /* hs_heystupidshort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hs_heystupidshort.mp3; sourceTree = "<group>"; };
+		A0BC24D11912ABC300DA50C1 /* hs_canubelieveit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hs_canubelieveit.mp3; sourceTree = "<group>"; };
+		A0BC24D31912AC9200DA50C1 /* StrongSadWinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrongSadWinScene.h; sourceTree = "<group>"; };
+		A0BC24D41912AC9200DA50C1 /* StrongSadWinScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrongSadWinScene.m; sourceTree = "<group>"; };
+		A0BC24D61912AD4300DA50C1 /* homestarhead-aqua converted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homestarhead-aqua converted.png"; sourceTree = "<group>"; };
+		A0BC24D81912AEC800DA50C1 /* Homestar Runner Theme Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Homestar Runner Theme Song.mp3"; sourceTree = "<group>"; };
+		A0BC24DA1912AFF700DA50C1 /* hs_ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hs_ding.mp3; sourceTree = "<group>"; };
+		A0BC24DC1912B49100DA50C1 /* HomestarRunner-folder converted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HomestarRunner-folder converted.png"; sourceTree = "<group>"; };
+		A0BC24DE1912B49700DA50C1 /* sshead_converted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sshead_converted.png; path = BreakingBricks.atlas/sshead_converted.png; sourceTree = "<group>"; };
+		A0BC24E01912B67E00DA50C1 /* trash_sb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trash_sb.wav; sourceTree = "<group>"; };
+		A0BC24E21912B7C000DA50C1 /* trash_hs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trash_hs.wav; sourceTree = "<group>"; };
+		A0BC24E41912BB4600DA50C1 /* SettingsMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMenu.h; sourceTree = "<group>"; };
+		A0BC24E51912BB4600DA50C1 /* SettingsMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsMenu.m; sourceTree = "<group>"; };
+		A0C6B5B919005CB200762A7D /* SSEndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSEndScene.h; sourceTree = "<group>"; };
+		A0C6B5BA19005CB200762A7D /* SSEndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSEndScene.m; sourceTree = "<group>"; };
+		A0C6B5BC1900683F00762A7D /* ss_sadflying.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ss_sadflying.mp3; sourceTree = "<group>"; };
+		A0C6B5BE1900694600762A7D /* BreakingBricks.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BreakingBricks.atlas; sourceTree = "<group>"; };
+		A0CD718E18ECA70500C90D11 /* hom_jengaship.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hom_jengaship.mp3; sourceTree = "<group>"; };
+		A0CD719618ECA9FB00C90D11 /* sbmax.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sbmax.wav; sourceTree = "<group>"; };
+		A0CD719A18ECAC3600C90D11 /* sbmin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sbmin.wav; sourceTree = "<group>"; };
+		A0CD71A218ED170900C90D11 /* sb_dubdeuce_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sb_dubdeuce_1.mp3; sourceTree = "<group>"; };
+		A0CD71A418EDBFD200C90D11 /* The System is Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The System is Down.mp3"; sourceTree = "<group>"; };
+		A0CD71A618EDE12D00C90D11 /* sb_pizza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sb_pizza.mp3; sourceTree = "<group>"; };
+		A0F9A81918FBA21C00F5A504 /* StrongBadWinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrongBadWinScene.h; sourceTree = "<group>"; };
+		A0F9A81A18FBA21C00F5A504 /* StrongBadWinScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrongBadWinScene.m; sourceTree = "<group>"; };
+		A0F9A81C18FBA27100F5A504 /* StrongSadGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrongSadGameScene.h; sourceTree = "<group>"; };
+		A0F9A81D18FBA27100F5A504 /* StrongSadGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrongSadGameScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02CD40518E7909900CA87C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0530B3918E9C4B8004E9C1D /* AVFoundation.framework in Frameworks */,
+				A02CD40E18E7909900CA87C0 /* CoreGraphics.framework in Frameworks */,
+				A02CD41018E7909900CA87C0 /* UIKit.framework in Frameworks */,
+				A02CD41218E7909900CA87C0 /* SpriteKit.framework in Frameworks */,
+				A02CD40C18E7909900CA87C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02CD42D18E7909900CA87C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02CD43218E7909900CA87C0 /* XCTest.framework in Frameworks */,
+				A02CD43418E7909900CA87C0 /* UIKit.framework in Frameworks */,
+				A02CD43318E7909900CA87C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02CD3FF18E7909800CA87C0 = {
+			isa = PBXGroup;
+			children = (
+				A0C6B5BE1900694600762A7D /* BreakingBricks.atlas */,
+				A0530B3218E92572004E9C1D /* blip.caf */,
+				A0530B3318E92572004E9C1D /* brickhit.caf */,
+				A0530B3418E92572004E9C1D /* gameover.caf */,
+				A0CD719618ECA9FB00C90D11 /* sbmax.wav */,
+				A0CD719A18ECAC3600C90D11 /* sbmin.wav */,
+				A0CD718E18ECA70500C90D11 /* hom_jengaship.mp3 */,
+				A0CD71A218ED170900C90D11 /* sb_dubdeuce_1.mp3 */,
+				A0CD71A418EDBFD200C90D11 /* The System is Down.mp3 */,
+				A00D6A2F18FC97520065DA22 /* ss_frustrating.mp3 */,
+				A0C6B5BC1900683F00762A7D /* ss_sadflying.mp3 */,
+				A0CD71A618EDE12D00C90D11 /* sb_pizza.mp3 */,
+				A0BC24CB1912A5F900DA50C1 /* sbstartup3.wav */,
+				A0BC24CD1912AABC00DA50C1 /* hs_notlookgood.mp3 */,
+				A0BC24CF1912AB8B00DA50C1 /* hs_heystupidshort.mp3 */,
+				A0BC24D11912ABC300DA50C1 /* hs_canubelieveit.mp3 */,
+				A0BC24DE1912B49700DA50C1 /* sshead_converted.png */,
+				A0BC24D61912AD4300DA50C1 /* homestarhead-aqua converted.png */,
+				A0BC24DC1912B49100DA50C1 /* HomestarRunner-folder converted.png */,
+				A0BC24D81912AEC800DA50C1 /* Homestar Runner Theme Song.mp3 */,
+				A0BC24E01912B67E00DA50C1 /* trash_sb.wav */,
+				A0BC24E21912B7C000DA50C1 /* trash_hs.wav */,
+				A0BC24DA1912AFF700DA50C1 /* hs_ding.mp3 */,
+				A02CD41318E7909900CA87C0 /* BreakingBricks */,
+				A02CD43718E7909900CA87C0 /* BreakingBricksTests */,
+				A02CD40A18E7909900CA87C0 /* Frameworks */,
+				A02CD40918E7909900CA87C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A02CD40918E7909900CA87C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02CD40818E7909900CA87C0 /* BreakingBricks.app */,
+				A02CD43018E7909900CA87C0 /* BreakingBricksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02CD40A18E7909900CA87C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0530B3818E9C4B8004E9C1D /* AVFoundation.framework */,
+				A02CD40B18E7909900CA87C0 /* Foundation.framework */,
+				A02CD40D18E7909900CA87C0 /* CoreGraphics.framework */,
+				A02CD40F18E7909900CA87C0 /* UIKit.framework */,
+				A02CD41118E7909900CA87C0 /* SpriteKit.framework */,
+				A02CD43118E7909900CA87C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A02CD41318E7909900CA87C0 /* BreakingBricks */ = {
+			isa = PBXGroup;
+			children = (
+				A02CD41C18E7909900CA87C0 /* AppDelegate.h */,
+				A02CD41D18E7909900CA87C0 /* AppDelegate.m */,
+				A02CD41F18E7909900CA87C0 /* Main.storyboard */,
+				A02CD42218E7909900CA87C0 /* ViewController.h */,
+				A02CD42318E7909900CA87C0 /* ViewController.m */,
+				A0BC24BF19129E6600DA50C1 /* StartMenu.h */,
+				A0BC24C019129E6600DA50C1 /* StartMenu.m */,
+				A0BC24E41912BB4600DA50C1 /* SettingsMenu.h */,
+				A0BC24E51912BB4600DA50C1 /* SettingsMenu.m */,
+				A02CD42518E7909900CA87C0 /* MyScene.h */,
+				A02CD42618E7909900CA87C0 /* MyScene.m */,
+				A0F9A81918FBA21C00F5A504 /* StrongBadWinScene.h */,
+				A0F9A81A18FBA21C00F5A504 /* StrongBadWinScene.m */,
+				A0530B3A18EA1E2D004E9C1D /* EndScene.h */,
+				A0530B3B18EA1E2E004E9C1D /* EndScene.m */,
+				A0F9A81C18FBA27100F5A504 /* StrongSadGameScene.h */,
+				A0F9A81D18FBA27100F5A504 /* StrongSadGameScene.m */,
+				A0BC24D31912AC9200DA50C1 /* StrongSadWinScene.h */,
+				A0BC24D41912AC9200DA50C1 /* StrongSadWinScene.m */,
+				A0C6B5B919005CB200762A7D /* SSEndScene.h */,
+				A0C6B5BA19005CB200762A7D /* SSEndScene.m */,
+				A0BC24C21912A3E300DA50C1 /* HomestarGameScene.h */,
+				A0BC24C31912A3E300DA50C1 /* HomestarGameScene.m */,
+				A0BC24C51912A3F200DA50C1 /* HomestarEndScene.h */,
+				A0BC24C61912A3F200DA50C1 /* HomestarEndScene.m */,
+				A0BC24C81912A40400DA50C1 /* HomestarWinScene.h */,
+				A0BC24C91912A40400DA50C1 /* HomestarWinScene.m */,
+				A02CD42A18E7909900CA87C0 /* Images.xcassets */,
+				A02CD41418E7909900CA87C0 /* Supporting Files */,
+			);
+			path = BreakingBricks;
+			sourceTree = "<group>";
+		};
+		A02CD41418E7909900CA87C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A02CD41518E7909900CA87C0 /* BreakingBricks-Info.plist */,
+				A02CD41618E7909900CA87C0 /* InfoPlist.strings */,
+				A02CD41918E7909900CA87C0 /* main.m */,
+				A02CD41B18E7909900CA87C0 /* BreakingBricks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A02CD43718E7909900CA87C0 /* BreakingBricksTests */ = {
+			isa = PBXGroup;
+			children = (
+				A02CD43D18E7909900CA87C0 /* BreakingBricksTests.m */,
+				A02CD43818E7909900CA87C0 /* Supporting Files */,
+			);
+			path = BreakingBricksTests;
+			sourceTree = "<group>";
+		};
+		A02CD43818E7909900CA87C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A02CD43918E7909900CA87C0 /* BreakingBricksTests-Info.plist */,
+				A02CD43A18E7909900CA87C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A02CD40718E7909900CA87C0 /* BreakingBricks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02CD44118E7909900CA87C0 /* Build configuration list for PBXNativeTarget "BreakingBricks" */;
+			buildPhases = (
+				A02CD40418E7909900CA87C0 /* Sources */,
+				A02CD40518E7909900CA87C0 /* Frameworks */,
+				A02CD40618E7909900CA87C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreakingBricks;
+			productName = BreakingBricks;
+			productReference = A02CD40818E7909900CA87C0 /* BreakingBricks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A02CD42F18E7909900CA87C0 /* BreakingBricksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02CD44418E7909900CA87C0 /* Build configuration list for PBXNativeTarget "BreakingBricksTests" */;
+			buildPhases = (
+				A02CD42C18E7909900CA87C0 /* Sources */,
+				A02CD42D18E7909900CA87C0 /* Frameworks */,
+				A02CD42E18E7909900CA87C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02CD43618E7909900CA87C0 /* PBXTargetDependency */,
+			);
+			name = BreakingBricksTests;
+			productName = BreakingBricksTests;
+			productReference = A02CD43018E7909900CA87C0 /* BreakingBricksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A02CD40018E7909800CA87C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrew O'Neil-Smith";
+				TargetAttributes = {
+					A02CD42F18E7909900CA87C0 = {
+						TestTargetID = A02CD40718E7909900CA87C0;
+					};
+				};
+			};
+			buildConfigurationList = A02CD40318E7909800CA87C0 /* Build configuration list for PBXProject "BreakingBricks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A02CD3FF18E7909800CA87C0;
+			productRefGroup = A02CD40918E7909900CA87C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A02CD40718E7909900CA87C0 /* BreakingBricks */,
+				A02CD42F18E7909900CA87C0 /* BreakingBricksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A02CD40618E7909900CA87C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BC24DF1912B49700DA50C1 /* sshead_converted.png in Resources */,
+				A00D6A3018FC97520065DA22 /* ss_frustrating.mp3 in Resources */,
+				A0BC24D21912ABC300DA50C1 /* hs_canubelieveit.mp3 in Resources */,
+				A0CD71A718EDE12D00C90D11 /* sb_pizza.mp3 in Resources */,
+				A0BC24D01912AB8B00DA50C1 /* hs_heystupidshort.mp3 in Resources */,
+				A02CD41818E7909900CA87C0 /* InfoPlist.strings in Resources */,
+				A0BC24CE1912AABC00DA50C1 /* hs_notlookgood.mp3 in Resources */,
+				A0BC24D71912AD4300DA50C1 /* homestarhead-aqua converted.png in Resources */,
+				A0530B3518E92572004E9C1D /* blip.caf in Resources */,
+				A0BC24DD1912B49100DA50C1 /* HomestarRunner-folder converted.png in Resources */,
+				A0BC24E11912B67E00DA50C1 /* trash_sb.wav in Resources */,
+				A0C6B5BD1900683F00762A7D /* ss_sadflying.mp3 in Resources */,
+				A0BC24CC1912A5F900DA50C1 /* sbstartup3.wav in Resources */,
+				A0CD719718ECA9FB00C90D11 /* sbmax.wav in Resources */,
+				A0BC24DB1912AFF700DA50C1 /* hs_ding.mp3 in Resources */,
+				A0CD71A518EDBFD200C90D11 /* The System is Down.mp3 in Resources */,
+				A0530B3718E92572004E9C1D /* gameover.caf in Resources */,
+				A0CD719B18ECAC3600C90D11 /* sbmin.wav in Resources */,
+				A0CD718F18ECA70500C90D11 /* hom_jengaship.mp3 in Resources */,
+				A0C6B5BF1900694600762A7D /* BreakingBricks.atlas in Resources */,
+				A0530B3618E92572004E9C1D /* brickhit.caf in Resources */,
+				A0BC24D91912AEC800DA50C1 /* Homestar Runner Theme Song.mp3 in Resources */,
+				A0BC24E31912B7C000DA50C1 /* trash_hs.wav in Resources */,
+				A0CD71A318ED170900C90D11 /* sb_dubdeuce_1.mp3 in Resources */,
+				A02CD42B18E7909900CA87C0 /* Images.xcassets in Resources */,
+				A02CD42118E7909900CA87C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02CD42E18E7909900CA87C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02CD43C18E7909900CA87C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02CD40418E7909900CA87C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BC24CA1912A40400DA50C1 /* HomestarWinScene.m in Sources */,
+				A0BC24D51912AC9200DA50C1 /* StrongSadWinScene.m in Sources */,
+				A02CD42718E7909900CA87C0 /* MyScene.m in Sources */,
+				A0F9A81E18FBA27100F5A504 /* StrongSadGameScene.m in Sources */,
+				A0C6B5BB19005CB200762A7D /* SSEndScene.m in Sources */,
+				A0BC24E61912BB4600DA50C1 /* SettingsMenu.m in Sources */,
+				A02CD42418E7909900CA87C0 /* ViewController.m in Sources */,
+				A0BC24C71912A3F200DA50C1 /* HomestarEndScene.m in Sources */,
+				A0BC24C119129E6600DA50C1 /* StartMenu.m in Sources */,
+				A02CD41E18E7909900CA87C0 /* AppDelegate.m in Sources */,
+				A02CD41A18E7909900CA87C0 /* main.m in Sources */,
+				A0BC24C41912A3E300DA50C1 /* HomestarGameScene.m in Sources */,
+				A0F9A81B18FBA21C00F5A504 /* StrongBadWinScene.m in Sources */,
+				A0530B3C18EA1E2E004E9C1D /* EndScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02CD42C18E7909900CA87C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02CD43E18E7909900CA87C0 /* BreakingBricksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02CD43618E7909900CA87C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A02CD40718E7909900CA87C0 /* BreakingBricks */;
+			targetProxy = A02CD43518E7909900CA87C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A02CD41618E7909900CA87C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02CD41718E7909900CA87C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A02CD41F18E7909900CA87C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02CD42018E7909900CA87C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A02CD43A18E7909900CA87C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02CD43B18E7909900CA87C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02CD43F18E7909900CA87C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A02CD44018E7909900CA87C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A02CD44218E7909900CA87C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BreakingBricks/BreakingBricks-Prefix.pch";
+				INFOPLIST_FILE = "BreakingBricks/BreakingBricks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A02CD44318E7909900CA87C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BreakingBricks/BreakingBricks-Prefix.pch";
+				INFOPLIST_FILE = "BreakingBricks/BreakingBricks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A02CD44518E7909900CA87C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BreakingBricks.app/BreakingBricks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BreakingBricks/BreakingBricks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BreakingBricksTests/BreakingBricksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A02CD44618E7909900CA87C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BreakingBricks.app/BreakingBricks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BreakingBricks/BreakingBricks-Prefix.pch";
+				INFOPLIST_FILE = "BreakingBricksTests/BreakingBricksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02CD40318E7909800CA87C0 /* Build configuration list for PBXProject "BreakingBricks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02CD43F18E7909900CA87C0 /* Debug */,
+				A02CD44018E7909900CA87C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02CD44118E7909900CA87C0 /* Build configuration list for PBXNativeTarget "BreakingBricks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02CD44218E7909900CA87C0 /* Debug */,
+				A02CD44318E7909900CA87C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02CD44418E7909900CA87C0 /* Build configuration list for PBXNativeTarget "BreakingBricksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02CD44518E7909900CA87C0 /* Debug */,
+				A02CD44618E7909900CA87C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A02CD40018E7909800CA87C0 /* Project object */;
+}
